@@ -10,9 +10,9 @@ int main(int argc, char **argv)
 {
 	string	line;
 	string	word;
-	int		nb;
-	int		prime = 0;
-	int		i;
+	int nb;
+	int prime = 0;
+	int i;
 
 	for (string line; getline(cin, line); )
 	{

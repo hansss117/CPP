@@ -8,10 +8,10 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	int			count	= 0;
-	string		line;
-	string		word;
-	ifstream	myfile;
+	int count = 0;
+	string line;
+	string word;
+	ifstream myfile;
 
 	if (argc != 3)
 	{
@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 	while (std::getline(myfile, line))
 	{
 
-		stringstream	ss(line);
+		stringstream ss(line);
 		while (!ss.eof())
 		{
 			getline(ss, word, ' ');
