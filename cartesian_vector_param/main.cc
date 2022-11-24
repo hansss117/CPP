@@ -1,7 +1,7 @@
 // vector-test.cc
 #include <iostream>
 
-#include "vector.h"
+#include "vector.hh"
 
 #include <vector>
 #include <cstring> //strcmp
